@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1e1b4b;
+    color: #f8fafc;
+    padding: 35px 20px;
+}
+
+.contenedor {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 26px;
+    color: #c4b5fd;
+}
+
+h2 {
+    margin-bottom: 16px;
+    font-size: 17px;
+    color: #e2e8f0;
+    border-bottom: 1px solid #4338ca;
+    padding-bottom: 8px;
+}
+
+.panel-captura {
+    background-color: #312e81;
+    border: 1px solid #6366f1;
+    padding: 22px;
+    border-radius: 8px;
+    margin-bottom: 28px;
+}
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.grupo-campo p {
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #c7d2fe;
+}
+
+input {
+    padding: 10px;
+    background-color: #1e1b4b;
+    border: 1px solid #818cf8;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.panel-botones {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#boton-registrar,
+#boton-reiniciar {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #6366f1;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#boton-registrar {
+    background-color: #7c3aed;
+    color: #ffffff;
+}
+
+#boton-registrar:hover {
+    background-color: #6d28d9;
+}
+
+#boton-reiniciar {
+    background-color: #4338ca;
+    color: #e0e7ff;
+}
+
+#boton-reiniciar:hover {
+    background-color: #3730a3;
+}
+
+.tarjeta {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+.tarjeta h3 {
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+.tarjeta p {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.estado-positivo {
+    background-color: #14532d;
+    border-color: #4ade80;
+    color: #dcfce7;
+}
+
+.estado-alerta {
+    background-color: #7f1d1d;
+    border-color: #f87171;
+    color: #fee2e2;
+}
